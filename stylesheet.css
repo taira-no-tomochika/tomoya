@@ -1,0 +1,138 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  font-family: "Hannari"; 
+  font-family: "M PLUS 1p"; 
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url("IMG_meeesann.jpeg.png");
+  background-size: cover;
+  height: 65px;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  background-image: url("IMG_6424.jpeg");
+  background-size: cover;
+  height: 800px;
+}
+
+.container h1 {
+  color: white;
+  text-align: left;
+  padding-top: 300px;
+  font-family: "M PLUS 1p";
+  font-size: 70px;
+  opacity: 0.8;
+  padding-left: 100px
+}
+
+.contents {
+  height: 700px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.contents h2 {
+  color: #5f5d60;
+  font-size: 60px;
+  padding-top: 60px;
+  border-bottom: 2px solid #eee;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-contents {
+  padding-top: 15px;
+  font-size: 17px;
+  letter-spacing: 5px;
+}
+
+.youtube {
+  display: inline-block;
+  line-height: 65px;
+  color: white;
+  float: right;
+  margin-right: 50px;
+  background-color: red;
+  opacity: 0.7;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.youtube:hover {
+  opacity: 1;
+  transition: 0.5s
+}
+
+.twitter {
+  display: inline-block;
+  height: 65px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #55ACEE;
+  color: white;
+  opacity: 0.9;
+  margin-left: 50px;
+  line-height: 65px;
+  float: left;
+}
+
+.twitter:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image {
+  float: left;
+  width: 25%;
+  padding-top: 30px;
+}
+
+.image p {
+  font-size: 13px;
+  color:dimgray;
+}
+
+.claim {
+  padding-top: 40px;
+  font-size: 17px;
+  display: inline-block;
+  letter-spacing: 5px;
+}
+
+footer {
+  background-image: url("IMG_footer.png");
+  height: 100px;
+  width: 100%;
+}
